@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anek Tamil', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Philosopher', sans-serif;
+
+    
+}
+.header{
+    min-height: 500px;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: right;
+    background-color: #ffffff60;
+    border-radius: 10px;
+}
+.top{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+
+.logo{
+    background-color: #ffffff60;
+}
+.top a{
+        position:fixed;
+        padding-left: 78%;
+        padding-right: 50%;
+        background-color: #ffffff60;
+        border-radius: 5px;
+}
+    
+
+.top img{
+    width: 300px;
+    position: relative;
+    
+
+    
+    
+}
+credit{
+    display: none;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+   
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+} 
+.nav-links ul li a{
+    color: #040404;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #040404;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+    box-shadow: 10px 0 40px 10px rgba(179, 255, 0, 0.432);
+}
+.text-box h1{
+    font-size: 60px;
+    top: 10%;
+    background-color: #ffffff60;
+    border-radius: 7px;
+    
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    
+    color: #fcfcfc;
+}
+.hero-htn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-htn:hover{
+    border: 10px solid #bbad71;
+    background: #bbad71;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+.break{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
+    
+
+}
+
+
+@media(max-width: 700px){
+        .top a{
+            left: 0;
+            padding-left: 50px;
+        }
+    
+
+    .header{
+        background-image: url(image/ibg.jpg);
+    }
+    .break{
+        background-image: url(image/ibg.jpg);
+        
+    }
+    .text-box{
+        width: 80%;
+        box-shadow: 0px 0 20px 10px rgba(179, 255, 0, 0.432);
+    }
+    .text-box h1{
+        text-align: center;
+        font-size: 32px;
+        color: #040404;
+        display: block;
+        right: 50%;
+        
+        
+    }
+    .nav-links ul li{
+        display: block;
+        color: #040404;
+    }
+    .nav-links ul li a{
+        display: block;
+        color: #040404;
+    }
+    .nav-links{
+        position: fixed;
+        background: #fcfcfcaf;
+        height: 50vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: right;
+        z-index: 1;
+        transition: 1s;
+        
+    }
+        
+    
+    nav .fa{
+        display: block;
+        color: #040404;
+        margin: 16px;
+        font-size: 22px;
+        cursor: pointer;
+        transition: 1s;
+
+        
+
+        }
+    
+    .nav-links ul{
+        padding: 15px;
+        color: #040404;
+    }
+
+}
+.service{
+
+    margin: auto;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
+    text-align: center;
+    
+    
+
+}
+h1{
+    font-size: 42px;
+    font-weight: 300;
+    color: #040404;
+    text-align: center;
+    
+}
+p{
+    color: #040404;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    
+
+    background-color: #ffffff30;
+    border-radius: 7px;
+
+
+}
+
+.service-col{
+    flex-basis: 31%;
+    border-radius: 5px;
+    
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #ffffff60;
+}
+.service-col img{
+
+    width: 280px;
+    border-radius: 5px;
+    position: relative;
+}
+h3{
+    text-align: left;
+    font-weight: 350;
+    margin: 10px 0;
+    color: #040404;
+
+}
+
+.service-col:hover{
+    box-shadow: 0 0 20px 10px rgba(179, 255, 0, 0.432);
+
+
+}
+div img{
+    width: 200px;
+}
+
+
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: o;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: #787a40;
+}
+
+.about{
+
+    margin: auto;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
+    text-align: center;
+    
+}
+.roww{
+    
+    
+    width: 75%;
+    
+    margin-left: 25%;
+    
+
+    background-color: #ffffff60;
+    border-radius: 7px;
+    padding-top: 15px;
+
+
+}
+.roww img{
+    
+    width: 300px;
+    background-color: #04040413;
+    box-shadow: 10px 0 40px 10px rgba(179, 255, 0, 0.432);
+    border-radius: 500px;
+    
+
+}
+.rowwww{
+    
+    
+    width: 60%;
+    
+    margin-left: 20%;
+    
+
+    background-color: #ffffff60;
+    border-radius: 7px;
+    padding-top: 15px;
+
+
+}
+.rowwww img{
+    
+    width: 300px;
+    background-color: #04040413;
+    box-shadow: 10px 0 40px 10px rgba(179, 255, 0, 0.432);
+    border-radius: 500px;
+    
+
+}
+.p1{
+    text-align: left;
+}
+h4{
+    text-align: left;
+    color: #040404;
+    font-size: 32px;
+    padding-left: 50px;
+
+}
+@media(max-width: 700px){
+
+    .service{
+        background-image: url(image/ibg.jpg);
+    }
+  
+    
+    .about{
+        background-image: url(image/);
+        
+    }
+    
+
+    .row{
+        flex-direction: column;
+        width: 80%;
+    }
+    .rowww{
+        flex-direction:column;
+        width: 80%; 
+    }
+    .about{
+        width: 100%; 
+        background-color: #ffffff60;
+    }
+    .rowwww{
+        width: 80%;
+        background-color: #ffffff60;
+    }
+
+    .rowwww h1{
+        font-size: 28px;
+        text-align: left;
+    }
+    .rowwww a{
+        margin-top: 25px;
+        width: 150px;
+    }
+}
+
+.bottom{
+
+    background-color: #1b1b11;
+    width: 100%;
+
+
+}
+.bottom .fa{
+   display:block
+   
+}
+.social{
+    padding-left: 20%;
+    padding-top: 50px;
+}
+
+.fa{
+    
+    padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+   
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 100px;
+    
+    
+  }
+  .fa-instagram {
+    background: #FCAF45;
+    color: white;
+    border-radius: 100px;
+    
+  }
+
+
+.pop p{
+    color:#ffffff;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #1b1b11;
+    
+}
+
+.servicee{
+
+    margin: auto;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
+    text-align: center;
+}
+.rowww{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #ffffff30;
+    border-radius: 7px;
+
+
+}
+
+.service-coll{
+    flex-basis: 31%;
+    border-radius: 5px;
+    
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    background-color: #ffffff60;
+}
+.service-coll img{
+
+    width: 280px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.service-coll:hover{
+    box-shadow: 0 0 20px 10px rgba(179, 255, 0, 0.432);
+
+
+}
+.breakk{
+    min-height: 100px;
+    width: 100%;
+    background-image: url(image/roberto-nickson-rEJxpBskj3Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
+
+}
+
+  .service-coll img {
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  
+  .service-coll img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;
+  }
+ 
