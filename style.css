@@ -182,6 +182,11 @@ nav .fa{
         
         
     }
+    .p{
+        font-size: 24px;
+        text-align: left;
+        margin: auto;
+    }
     .nav-links ul li{
         display: block;
         color: #040404;
